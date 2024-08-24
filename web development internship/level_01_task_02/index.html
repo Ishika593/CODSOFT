@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0
+    ,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&displa
+    y=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--header section-->
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Portfo<span>lio</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li> 
+                <li><a href="#">Services</a></li> 
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <a href="#" class="btn">Subscribe</a>
+        </nav>
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Ishika <span> Bharti</span></h1>
+            <h3>Engineering Dreams into Reality: Explore My Tech Journey</h3>
+            <div class="newslatter">
+               <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter your email">
+                    <input type="submit" name="submit" value="Let's Start">
+                </form> 
+            </div>
+        </div>
+    </div>
+
+    <!--about section-->
+    <section class="about">
+        <div class="main">
+            <img src="user.png" >
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer <span>& Coder</span></h5>
+                <p>I'm a final-year B.Tech CSE student with a passion for exploring the cutting edge of technology.
+                    My interests span Web development, Android development, Machine learning, and Artificial Intelligence, where I
+                    thrive on creating innovative solutions and tackling complex challenges. As I approach the end of my academic journey,
+                     I'm excited to leverage my skills and experiences to make a meaningful impact in the tech industry.</p>
+            <button type="button">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+
+    <!--skills section-->
+    <div class="skills">
+        <div class="title">
+            <h2>Skills</h2>
+            <h4>Technical Skills</h4>
+        </div>
+
+        <div class="box">
+            <!-- Technical Skills Cards -->
+            <div class="card">
+                <i class="fa-solid fa-laptop"></i>
+                <h5>Web Development</h5>
+    
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-android"></i>
+                <h5>Android Development</h5>
+
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-brain"></i>
+                <h5>Machine Learning</h5>
+            </div>
+            <div class="card">
+                <i class="fas fa-keyboard"></i>
+                <h5>Programming Languages</h5>
+
+            </div>
+        </div>
+
+        <!--Soft Skills Section -->
+        <div class="title">
+            <h4>Soft Skills</h4>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-lightbulb"></i>
+                <h5>Problem-Solving</h5>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-users"></i>
+                <h5>Team Collaboration</h5>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-calendar-alt"></i>
+                <h5>Time Management</h5>
+            </div>
+        </div>
+    </div>
+
+     <!--projects-->
+     <div id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <i class="fa-solid fa-laptop"></i>
+                <h3>E-commerce website</h3>
+                <p>Created a dynamic eCommerce website using HTML, CSS, and JavaScript. The site features product listings, interactive filters, and a real-time shopping cart. 
+                    It offers a responsive design ensuring usability across devices.</p>
+                <a href="link/to/project1" class="button" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <i class="fa-solid fa-comments"></i>
+                <h3>Chatting Application</h3>
+                <p>Developed a real-time chat application using Kotlin. It supports user authentication, instant messaging, and an intuitive interface. Utilizes Firebase for secure authentication and real-time message management.</p>
+                <a href="link/to/project2" class="button" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <i class="fa-solid fa-robot"></i>
+                <h3>Voice Assistant</h3>
+                <p>Built a desktop voice assistant using Python. It includes voice recognition, text-to-speech, and command execution for tasks like file management
+                    and retrieving information. Enhances user interaction.</p>
+                <a href="link/to/project2" class="button" target="_blank">View Project</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!--resume or contact me-->
+    <div class="resume">
+        <p>View my resume.</p>
+        <a class="button-two" href="#">Resume</a>
+    </div>
+
+    <!--footer start-->
+    <footer>
+    <p class="name">Ishika Bharti</p>
+    <p class="contact">For job opportunities or internships, please contact me at </p>
+    <p class="contact">Email: <a href="ishikabharti@gmail.com">ishikabharti@gmail.com</a></p>
+    <p class="contact">Phone: +91 9876543210</p>
+    <p class="follow">Follow me on:</p>
+    <div class="social">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+    <p class="end">&copy; 2024 IshikaBharti. All rights reserved.</p>
+   
+</footer>
+</body>
+</html>
